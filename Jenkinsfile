@@ -4,7 +4,7 @@ pipeline{
     }
     parameters {
         string(name: 'ACCESS_KEY', description: 'aws access key of your aws account')
-        string(name: 'SECRET_KEY',description: "aws secret key of aws account")
+        string(name: 'SECRET_KEY', description: "aws secret key of aws account")
     }
     stages{
         stage("packer-build"){
