@@ -1,0 +1,6 @@
+ami_id = "ami-0fb653ca2d3203ac1"
+image_version = "1"
+rds_database_username = "root"
+rds_initial_database_name = "mydb"
+rds_database_user_password = "3366"
+rds_address = ""
